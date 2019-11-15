@@ -1,0 +1,6 @@
+Aucun parametre "{{ param }}" n'a ete passe dans l'url.<br />
+{% if param == 'username' %}
+Essayez l'url suivante : http://mon-joli-dns/login?username=jackie<br />
+{% elif param == 'password' %}
+Essayez l'url suivante : http://mon-joli-dns/login?username=jackie&password=jackie<br />
+{% endif %}
